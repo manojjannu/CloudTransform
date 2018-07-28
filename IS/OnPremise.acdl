@@ -1,7 +1,7 @@
 <asset_composite xmlns="http://namespaces.softwareag.com/acdl/1.0" targetNamespace="http://namespaces.softwareag.com/webMethods/IS" name="OnPremise" runtimeVersion="10.3.0.0">
   <implementation.generic type="ispackage" />
-  <buildInfo name="BuildVersion" value="10.3.0.1532740859657" />
-  <buildInfo name="BuildTimestamp" value="2018-07-27T18:20:59" />
+  <buildInfo name="BuildVersion" value="10.3.0.1532741195167" />
+  <buildInfo name="BuildTimestamp" value="2018-07-27T18:26:35" />
   <buildInfo name="MinimumTargetRuntimeVersion" value="10.3.0.0" />
   <property name="activatePkgOnInstall" displayName="Activate Package On Install">
     <value>true</value>
@@ -34,6 +34,9 @@
     <implementation.generic type="ispackage" />
   </asset>
   <asset name="Service.testDebug" displayName="Service:testDebug">
+    <implementation.generic type="isflowservice" />
+  </asset>
+  <asset name="Service.test1" displayName="Service:test1">
     <implementation.generic type="isflowservice" />
   </asset>
   <asset name="OnPremise.code" displayName="code">
